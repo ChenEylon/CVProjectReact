@@ -14,7 +14,7 @@ export const SignUp = () => {
         e.preventDefault();
         try {
             const databaser = await axios.post(
-              "http://localhost:5000/users/create",
+              "https://cvprojectserver1.onrender.com/users/create",
               {  name: name,
                  password: password  });
             console.log(databaser.data);

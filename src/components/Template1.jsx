@@ -31,7 +31,7 @@ export const Template1 = () => {
 
  useEffect(() => {
     axios
-      .post("http://localhost:5000/users/translateToken",
+      .post("https://cvprojectserver1.onrender.com/users/translateToken",
         {
           token: localStorage.getItem("logged")
         })

@@ -9,7 +9,7 @@ export const Create = () => {
 
   useEffect(() => {
     axios
-      .post('http://localhost:5000/users/translateToken', {
+      .post('https://cvprojectserver1.onrender.com/users/translateToken', {
         token: localStorage.getItem('logged'),
       })
       .then(({ data }) => {
@@ -70,7 +70,7 @@ export const Create = () => {
       [name]: value,
     }));
   };
-  
+
   useEffect (()=>{
      const handleChangepic = () => {
     setFormData((prevData) => ({
@@ -213,7 +213,7 @@ export const Create = () => {
     try {
       ;
       const { data: newPost } = await axios.post(
-        "http://localhost:5000/cv/create",
+        "https://cvprojectserver1.onrender.com/cv/create",
         formData
       );
 

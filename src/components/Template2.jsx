@@ -14,7 +14,7 @@ export const Template2 = () => {
     let { state } = useLocation();
     useEffect(() => {
         axios
-            .post("http://localhost:5000/users/translateToken",
+            .post("https://cvprojectserver1.onrender.com/users/translateToken",
                 {
                     token: localStorage.getItem("logged")
                 })

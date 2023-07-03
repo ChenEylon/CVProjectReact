@@ -20,7 +20,7 @@ export const Login = () => {
         e.preventDefault();
         try {
             const databaser = await axios.post(
-                "http://localhost:5000/users/login",
+                "https://cvprojectserver1.onrender.com/users/login",
                 {
                     name: name,
                     password: password
