@@ -1,0 +1,73 @@
+/* formStyles.css */
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.form-input,
+.form-textarea {
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.form-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.submit-button {
+  background-color: #42b983;
+  color: #fff;
+}
+
+.submit-button:hover {
+  background-color: #389e74;
+}
+
+.remove-field-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.remove-field-button:hover {
+  background-color: #a71d2a;
+}
+
+.add-field-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.add-field-button:hover {
+  background-color: #0056b3;
+}

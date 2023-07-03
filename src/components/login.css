@@ -1,0 +1,97 @@
+
+
+    .gradient-form {
+        background: linear-gradient(to right, #009688, #00bcd4);
+        color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .gradient-form h4 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        padding-bottom: 1px;
+    }
+
+    .gradient-form p {
+        margin-bottom: 15px;
+    }
+
+    .gradient-form input[type="text"],
+    .gradient-form input[type="password"] {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid #fff;
+        color: #fff;
+        outline: none;
+        padding: 8px 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .gradient-form input[type="text"]::placeholder,
+    .gradient-form input[type="password"]::placeholder {
+        color: #fff;
+    }
+
+    .gradient-form button {
+        background-color: #006064;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        padding: 10px 15px;
+        width: 100%;
+    }
+
+    .gradient-form button:hover {
+        background-color: #004d59;
+    }
+
+    .gradient-form .mb-5 {
+        margin-bottom: 50px;
+    }
+
+    .gradient-form .mx-2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .gradient-custom-2 {
+        background: linear-gradient(to right, #006064, #009688);
+    }
+
+    .gradient-custom-2 h4 {
+        margin-bottom: 20px;
+    }
+
+    .gradient-custom-2 p {
+        margin-bottom: 0;
+    }
+
+    .gradient-custom-2 .px-3,
+    .gradient-custom-2 .py-4,
+    .gradient-custom-2 .p-md-5,
+    .gradient-custom-2 .mx-md-4 {
+        padding: 20px;
+    }
+
+    .gradient-custom-2 .small {
+        font-size: 14px;
+    }
+
+    .gradient-custom-2 .mb-4 {
+        margin-bottom: 40px;
+    }
+
+    .gradient-custom-2 .text-white {
+        color: #fff;
+    }
+
+    @media (max-width: 768px) {
+        .gradient-form {
+            max-width: 100%;
+        }
+    }
+
