@@ -33,7 +33,7 @@ export const Homepage = () => {
      
       <div className='aboutus'>
         <div className='about'>
-          <span style={{ fontSize: "30px", font: 'bald' }}>VC?</span>
+          <span style={{ fontSize: "30px", font: 'bald' }}>CV</span>
           <span>
             A Curriculum Vitae (CV) is much more than a simple document
             listing your education and work experience.
@@ -69,7 +69,6 @@ export const Homepage = () => {
           With a focus on quality and excellence,
           our projects aim to inspire and leave a lasting impact on the communities we serve.
         </span>
-        <button type="button" className="btn boton btn-dark"> templates</button>
       </div>
     </div>
 
