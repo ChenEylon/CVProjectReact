@@ -30,34 +30,6 @@ export const Homepage = () => {
       </div>
       <div className="card">
       </div>
-     
-      <div className='aboutus'>
-        <div className='about'>
-          <span style={{ fontSize: "30px", font: 'bald' }}>CV</span>
-          <span>
-            A Curriculum Vitae (CV) is much more than a simple document
-            listing your education and work experience.
-            It is a powerful tool that opens doors to countless
-            opportunities in your professional journey. Here's why
-            having a strong and well-crafted CV is crucial:
-
-            First Impressions Matter: Your CV serves as your
-            introduction to potential employers or recruiters.
-            It is often the first impression they have of you as a
-            candidate. A well-designed and organized CV instantly captures
-            attention and sets you apart from other applicants,
-            increasing your chances of being shortlisted for interviews.
-
-            Showcasing Your Skills and Experience: A CV allows you
-            to showcase your skills, qualifications, and work experience
-            in a concise and structured manner. It provides a comprehensive
-            overview of your capabilities, achievements, and expertise, enabling
-            employers to assess your suitability for a particular role or position.
-          </span>
-        </div>
-
-        <img className='imgabout2' src="https://elitewritings.com/images/articles/34-I5opkGKtDU.jpg/800x600.jpg" alt="" />
-      </div>
       <div className='goto'>
         <span style={{ fontSize: "30px", font: 'bald' }}>A little bit about our projects:</span>
         <span>
