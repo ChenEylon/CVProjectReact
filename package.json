@@ -21,7 +21,7 @@
     "jspdf": "^2.5.1",
     "mdb": "^0.1.0",
     "mdb-react-ui-kit": "^6.1.0",
-    "mongoose": "^7.3.0",
+    "mongoose": "^7.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.13.0"
